@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="818534d0-24df-4d89-8575-3aa6aed6674f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BallController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BallController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Physic Material.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Physic Material.physicMaterial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlocksCreation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CubeCreation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlocksCreation.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CubeCreation.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/3b/3b0ce4ff1e44cc1032e8216706884f3a.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/3b/3b0ce4ff1e44cc1032e8216706884f3a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/cd/cd2a14897e16976aa20ecba9336c918e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/cd/cd2a14897e16976aa20ecba9336c918e.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../DZ_2_3/DZ_2_3/Assets/Scripts/EnemyData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../DZ_Checkers/Netology_-heckers/DZ_CheckersProject/Assets/Scripts/Checker/CheckerView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CubeCreation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CubeView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BallMoving.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BallController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../DZ_2_3/DZ_2_3/Assets/Scripts/EnemyController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../DZ_2_3/DZ_2_3/Assets/Scripts/FatEnemy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/3a/305fd913/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/BlocksCreation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CubeView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DrawNomal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BallController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CubeCreation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BallMoving.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CrKAoalzz8cBqKTEHKZzAAsiKP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.25896123" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.22165325" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="818534d0-24df-4d89-8575-3aa6aed6674f" name="Default Changelist" comment="" />
+      <created>1659555123616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659555123616</updated>
+      <workItem from="1659555148132" duration="2115000" />
+      <workItem from="1659634315678" duration="2909000" />
+      <workItem from="1659722029080" duration="2422000" />
+      <workItem from="1659772949710" duration="3606000" />
+      <workItem from="1659782549965" duration="346000" />
+      <workItem from="1659783077479" duration="204000" />
+      <workItem from="1659784152241" duration="4001000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="445" height="351" key="DebuggerActiveHint" timestamp="1659723382466">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="445" height="351" key="DebuggerActiveHint/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659723382466" />
+    <state width="476" height="466" key="DebuggerActiveHint/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659556797465" />
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom" timestamp="1659734591617">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591617" />
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323644" />
+    <state width="1398" height="199" key="GridCell.Tab.0.center" timestamp="1659734591616">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.center/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591616" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323643" />
+    <state width="1398" height="199" key="GridCell.Tab.0.left" timestamp="1659734591616">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.left/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591616" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323643" />
+    <state width="1398" height="199" key="GridCell.Tab.0.right" timestamp="1659734591617">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.right/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591617" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323644" />
+    <state width="1398" height="199" key="GridCell.Tab.1.bottom" timestamp="1659734591618">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.1.bottom/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591618" />
+    <state width="1878" height="277" key="GridCell.Tab.1.bottom/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323645" />
+    <state width="1398" height="199" key="GridCell.Tab.1.center" timestamp="1659734591618">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.1.center/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591618" />
+    <state width="1878" height="277" key="GridCell.Tab.1.center/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323645" />
+    <state width="1398" height="199" key="GridCell.Tab.1.left" timestamp="1659734591618">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.1.left/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591618" />
+    <state width="1878" height="277" key="GridCell.Tab.1.left/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323644" />
+    <state width="1398" height="199" key="GridCell.Tab.1.right" timestamp="1659734591618">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.1.right/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591618" />
+    <state width="1878" height="277" key="GridCell.Tab.1.right/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323645" />
+    <state width="1398" height="199" key="GridCell.Tab.2.bottom" timestamp="1659734591619">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.2.bottom/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591619" />
+    <state width="1878" height="277" key="GridCell.Tab.2.bottom/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323647" />
+    <state width="1398" height="199" key="GridCell.Tab.2.center" timestamp="1659734591619">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.2.center/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591619" />
+    <state width="1878" height="277" key="GridCell.Tab.2.center/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323646" />
+    <state width="1398" height="199" key="GridCell.Tab.2.left" timestamp="1659734591618">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.2.left/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591618" />
+    <state width="1878" height="277" key="GridCell.Tab.2.left/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323646" />
+    <state width="1398" height="199" key="GridCell.Tab.2.right" timestamp="1659734591619">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.2.right/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591619" />
+    <state width="1878" height="277" key="GridCell.Tab.2.right/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323646" />
+    <state width="1398" height="199" key="GridCell.Tab.3.bottom" timestamp="1659734591620">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.3.bottom/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591620" />
+    <state width="1878" height="277" key="GridCell.Tab.3.bottom/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323648" />
+    <state width="1398" height="199" key="GridCell.Tab.3.center" timestamp="1659734591619">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.3.center/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591619" />
+    <state width="1878" height="277" key="GridCell.Tab.3.center/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323647" />
+    <state width="1398" height="199" key="GridCell.Tab.3.left" timestamp="1659734591619">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.3.left/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591619" />
+    <state width="1878" height="277" key="GridCell.Tab.3.left/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323647" />
+    <state width="1398" height="199" key="GridCell.Tab.3.right" timestamp="1659734591620">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.3.right/0.23.1440.812/1440.-293.1920.1080@0.23.1440.812" timestamp="1659734591620" />
+    <state width="1878" height="277" key="GridCell.Tab.3.right/0.23.1440.812/1440.-293.1920.1080@1440.-293.1920.1080" timestamp="1659557323648" />
+  </component>
+</project>
