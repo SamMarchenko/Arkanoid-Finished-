@@ -7,9 +7,13 @@ public class PlayerMove : MonoBehaviour
 {
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private float slide = 1;
+    public bool _isActive = true;
     private void Update()
     {
-        Moving();
+        if (_isActive)
+        {
+            Moving(); 
+        }
     }
     
     private void Moving()

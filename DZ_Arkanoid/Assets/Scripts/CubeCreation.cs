@@ -6,7 +6,7 @@ using Random = System.Random;
 
 public class CubeCreation : MonoBehaviour
 {
-    public CubeView cubePrefab;
+    [SerializeField] private CubeView cubePrefab;
     [SerializeField] private int _numberCubes;
     public List<CubeView> Cubes = new List<CubeView>();
     private Random _random = new Random();

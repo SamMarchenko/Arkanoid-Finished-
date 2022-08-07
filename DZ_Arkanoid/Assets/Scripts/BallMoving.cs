@@ -6,21 +6,22 @@ using UnityEngine;
 public class BallMoving : MonoBehaviour
 {
     public Action<CubeView> BallCollision;
+    public Action PressedSpace;
     public Action GateCollision;
-    public Vector3 _normal;
-    public Vector3 _result;
-    public Vector3 inDirection;
-    public float Acceleration;
-    public float MaxAcceleration;
-    public bool _isActive = true;
+    [SerializeField] private Vector3 _normal;
+    [SerializeField] private Vector3 _result;
+    [SerializeField] private Vector3 inDirection;
+    [SerializeField] private float Acceleration;
+    [SerializeField] private float MaxAcceleration;
+    public bool _isActive;
 
     [SerializeField] private Rigidbody _rigidbody;
 
     private void Start()
     {    //todo: по ТЗ нельзя движение физикой реализовывать
         //_rigidbody.AddForce(Vector3.forward, ForceMode.VelocityChange);
-        inDirection = transform.forward + new Vector3(0.15f,0.15f,0);
-        
+        inDirection = transform.forward + new Vector3(0.1f,0.1f,0);
+
     }
 
     private void Update()
@@ -29,7 +30,11 @@ public class BallMoving : MonoBehaviour
         {
             transform.Translate(inDirection *Acceleration * Time.deltaTime);
         }
-        
+        else if(Input.GetKeyDown(KeyCode.Space))
+        {
+            inDirection = transform.forward + new Vector3(0.1f,0.1f,0);
+            PressedSpace?.Invoke();
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -70,4 +75,6 @@ public class BallMoving : MonoBehaviour
         cubeView = collision.gameObject.GetComponent<CubeView>();
         return cubeView != null;
     }
+
+    
 }
