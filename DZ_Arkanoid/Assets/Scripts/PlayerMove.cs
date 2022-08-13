@@ -8,11 +8,17 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private float slide = 1;
     public bool _isActive = true;
+    public Action PressedEscape;
     private void Update()
     {
         if (_isActive)
         {
             Moving(); 
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PressedEscape?.Invoke();
         }
     }
     

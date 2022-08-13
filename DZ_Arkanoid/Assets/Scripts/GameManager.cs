@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace DefaultNamespace
 {
@@ -10,19 +12,56 @@ namespace DefaultNamespace
         [SerializeField] private PlayerMove _player1;
         [SerializeField] private PlayerMove _player2;
         [SerializeField] private CubeCreation _cubeCreation;
+        [SerializeField] private GameObject _menuWindow;
+        [SerializeField] private Text _player1Lifes;
+        [SerializeField] private Text _player2Lifes;
         private Vector3 _player1StartPos;
         private Vector3 _player2StartPos;
         private bool isWin;
+        private bool isMenuOpen;
         private void Start()
-        {
+        { 
+            _menuWindow.SetActive(false);
+            SetPlayersLifes();
             _ballMoving._isActive = false;
             _player1StartPos = _player1.transform.position;
             _player2StartPos = _player2.transform.position;
             _ballMoving.GateCollision += GateCollision;
             _ballMoving.PressedSpace += PressedSpace;
             _ballMoving.BallCollision += BallCollision;
+            _player1.PressedEscape += PressedEscape;
         }
 
+        private void SetPlayersLifes()
+        {
+            _player1Lifes.text = _lifes.ToString();
+            _player2Lifes.text = _lifes.ToString();
+        }
+
+        private void PressedEscape()
+        {
+            if (isMenuOpen) return;
+            _menuWindow.SetActive(true);
+            PauseGame(true);
+        }
+
+        public void OnContinueClick()
+        {
+            _menuWindow.SetActive(false);
+            PauseGame(false);
+        }
+
+        public void OnReloadClick(int _sceneNumber)
+        {
+            SceneManager.LoadScene(_sceneNumber,LoadSceneMode.Single);
+        }
+
+        private void PauseGame(bool status)
+        {
+            _ballMoving._isActive = !status;
+            _player1._isActive = !status;
+            _player2._isActive = !status;
+        }
         private void BallCollision(CubeView cubeView)
         {
             if (_cubeCreation.Cubes.Count > 1)
@@ -45,6 +84,10 @@ namespace DefaultNamespace
         {
             if (_lifes > 0 && !isWin)
             {
+                if (_menuWindow.activeSelf)
+                {
+                    return;
+                }
                 _ballMoving._isActive = true;
             }
         }
@@ -62,12 +105,14 @@ namespace DefaultNamespace
             if (_lifes > 1)
             {
                 _lifes--;
+                SetPlayersLifes();
                 StartPositions();
                 Debug.Log($"Minus heart. Hearts = {_lifes}");
             }
             else
             {
                 _lifes = 0;
+                SetPlayersLifes();
                 EndGame();
                Debug.Log("Game Over");
             }
