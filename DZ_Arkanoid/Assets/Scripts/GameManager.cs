@@ -19,6 +19,7 @@ namespace DefaultNamespace
         private Vector3 _player2StartPos;
         private bool isWin;
         private bool isMenuOpen;
+        private bool isRaundStarted;
         private void Start()
         { 
             _menuWindow.SetActive(false);
@@ -58,7 +59,10 @@ namespace DefaultNamespace
 
         private void PauseGame(bool status)
         {
-            _ballMoving._isActive = !status;
+            if (isRaundStarted)
+            {
+                _ballMoving._isActive = !status;
+            }
             _player1._isActive = !status;
             _player2._isActive = !status;
         }
@@ -82,12 +86,16 @@ namespace DefaultNamespace
 
         private void PressedSpace()
         {
+            
+            
             if (_lifes > 0 && !isWin)
             {
+                
                 if (_menuWindow.activeSelf)
                 {
                     return;
                 }
+                if (!isRaundStarted) isRaundStarted = true;
                 _ballMoving._isActive = true;
             }
         }
@@ -129,6 +137,7 @@ namespace DefaultNamespace
         private void EndGame()
         {
             StartPositions();
+            isRaundStarted = false;
             _player1._isActive = false;
             _player2._isActive = false;
         }
