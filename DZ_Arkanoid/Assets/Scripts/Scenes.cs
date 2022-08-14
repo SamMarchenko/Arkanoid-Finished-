@@ -10,7 +10,8 @@ public class Scenes : MonoBehaviour
 
    public void ExitGame()
    {
-      //todo: сделать выход для редактора
       Application.Quit();
+      // имитация выхода в редакторе
+      UnityEditor.EditorApplication.isPaused = true;
    }
 }

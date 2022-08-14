@@ -1,4 +1,5 @@
 using System;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -55,6 +56,11 @@ namespace DefaultNamespace
         public void OnReloadClick(int _sceneNumber)
         {
             SceneManager.LoadScene(_sceneNumber,LoadSceneMode.Single);
+        }
+
+        public void OnExitClick()
+        {
+            UnityEditor.EditorApplication.isPaused = true;
         }
 
         private void PauseGame(bool status)
