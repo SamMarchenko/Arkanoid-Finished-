@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Scenes : MonoBehaviour, IDisposable
 {
    [SerializeField] private Animator _mainMenuAnimator;
+   [SerializeField] private Animator _nameGameAnimator;
    [SerializeField] private Button _startGameButton;
    [SerializeField] private Button _exitGameButton;
 
@@ -15,9 +16,17 @@ public class Scenes : MonoBehaviour, IDisposable
       _startGameButton.onClick.AddListener(()=>PlayLevel(1));
       _exitGameButton.onClick.AddListener(ExitGame);
    }
+
+   private void Start()
+   {
+      _mainMenuAnimator.enabled = false;
+      _nameGameAnimator.enabled = false;
+   }
+
    public void PlayLevel(int _sceneNumber)
    {
       _mainMenuAnimator.enabled = true;
+      _nameGameAnimator.enabled = true;
       StartCoroutine(LoadGameSceneRoutine(_sceneNumber));
    }
 

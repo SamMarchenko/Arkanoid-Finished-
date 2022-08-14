@@ -10,8 +10,8 @@ namespace DefaultNamespace
     {
         [SerializeField] private BallMoving _ballMoving;
         [SerializeField] private int _lifes = 3;
-        [SerializeField] private PlayerMove _player1;
-        [SerializeField] private PlayerMove _player2;
+        [SerializeField] private Player _player1;
+        [SerializeField] private Player _player2;
         [SerializeField] private CubeCreation _cubeCreation;
         [SerializeField] private GameObject _menuWindow;
         [SerializeField] private Text _player1Lifes;
@@ -25,7 +25,7 @@ namespace DefaultNamespace
         { 
             _menuWindow.SetActive(false);
             SetPlayersLifes();
-            _ballMoving._isActive = false;
+            _ballMoving.IsActive = false;
             _player1StartPos = _player1.transform.position;
             _player2StartPos = _player2.transform.position;
             _ballMoving.GateCollision += GateCollision;
@@ -67,10 +67,10 @@ namespace DefaultNamespace
         {
             if (isRaundStarted)
             {
-                _ballMoving._isActive = !status;
+                _ballMoving.IsActive = !status;
             }
-            _player1._isActive = !status;
-            _player2._isActive = !status;
+            _player1.IsActive = !status;
+            _player2.IsActive = !status;
         }
         private void BallCollision(CubeView cubeView)
         {
@@ -102,13 +102,13 @@ namespace DefaultNamespace
                     return;
                 }
                 if (!isRaundStarted) isRaundStarted = true;
-                _ballMoving._isActive = true;
+                _ballMoving.IsActive = true;
             }
         }
 
         private void Update()
         {
-            if (_player1._isActive && !_ballMoving._isActive)
+            if (_player1.IsActive && !_ballMoving.IsActive)
             {
                 _ballMoving.transform.position = _player1.transform.position + Vector3.forward*2f;
             }
@@ -134,7 +134,7 @@ namespace DefaultNamespace
 
         private void StartPositions()
         {
-            _ballMoving._isActive = false;
+            _ballMoving.IsActive = false;
             _player1.transform.position = _player1StartPos;
             _player2.transform.position = _player2StartPos;
             _ballMoving.transform.position = _player1StartPos + Vector3.forward*2f;
@@ -144,8 +144,8 @@ namespace DefaultNamespace
         {
             StartPositions();
             isRaundStarted = false;
-            _player1._isActive = false;
-            _player2._isActive = false;
+            _player1.IsActive = false;
+            _player2.IsActive = false;
         }
 
         public void Dispose()

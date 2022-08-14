@@ -13,7 +13,7 @@ public class BallMoving : MonoBehaviour
     [SerializeField] private Vector3 inDirection;
     [SerializeField] private float Acceleration;
     [SerializeField] private float MaxAcceleration;
-    public bool _isActive;
+    public bool IsActive;
 
     [SerializeField] private Rigidbody _rigidbody;
 
@@ -26,7 +26,7 @@ public class BallMoving : MonoBehaviour
 
     private void Update()
     {
-        if (_isActive)
+        if (IsActive)
         {
             transform.Translate(inDirection *Acceleration * Time.deltaTime);
         }
