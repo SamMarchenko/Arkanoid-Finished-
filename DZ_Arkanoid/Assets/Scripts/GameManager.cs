@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace DefaultNamespace
 {
-    public class GameManager : MonoBehaviour
+    public class GameManager : MonoBehaviour, IDisposable
     {
         [SerializeField] private BallMoving _ballMoving;
         [SerializeField] private int _lifes = 3;
@@ -146,6 +146,14 @@ namespace DefaultNamespace
             isRaundStarted = false;
             _player1._isActive = false;
             _player2._isActive = false;
+        }
+
+        public void Dispose()
+        {
+            _ballMoving.GateCollision -= GateCollision;
+            _ballMoving.PressedSpace -= PressedSpace;
+            _ballMoving.BallCollision -= BallCollision;
+            _player1.PressedEscape -= PressedEscape;
         }
     }
 }
